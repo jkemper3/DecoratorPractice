@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package dessert;
 
 /**
@@ -11,13 +10,13 @@ package dessert;
  * @author jkemper3
  */
 public class Sundae extends Dessert {
+
     public Sundae() {
         description = "Sundae";
     }
 
     // provided implementation 
-    public double cost () {
+    public double cost() {
         return 1.49;
     }
 }
-

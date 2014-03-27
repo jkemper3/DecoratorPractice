@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package dessert;
 
 /**
@@ -12,10 +11,7 @@ package dessert;
  */
 public abstract class ToppingsDecorator extends Dessert {
 
- 
     @Override
     public abstract String getDescription();
-        
-    
-    
+
 }
